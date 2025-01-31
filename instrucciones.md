@@ -32,6 +32,7 @@
                     - insert(Post) -> agrega posts desde el formulario
 
 
+
 PASOS:
 
 - Instalar Bootstrap y modificar archivos angular.json
