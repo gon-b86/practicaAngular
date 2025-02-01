@@ -8,7 +8,7 @@
                     /postSearch -> búsqueda por título ... como los nombres de usuarios
                     Se muestran los posts ordenádos alfabéticamente por título ... igual que usuarios
                 /postView (/post/:idPost) -> botón que lleve a postCard
-                /new
+                /postNew
                     /form -> campos tal y como son en el IPost, todos son obligatorios, meter validadores, botón submit
 
 2 - Interfaces:
@@ -19,13 +19,13 @@
                 - Autor: string
                 - Imagen: string
                 - Fecha: date
-                - Categoría: string
+                - Categoría: string (Playa, Montaña, Ciudad, Rural, Festivales)
                
 3 - Servicio - postsService
-                - Array 1 [] -> entrada de posts
-                - Array 2 [] -> detalle de categorías (como el de jobs de usuarios)
+                - Array 1 [] -> entrada de posts ✅
+                - Array 2 [] -> detalle de categorías (como el de jobs de usuarios) ✅
                 - Métodos:
-                    - getAll() ->  recupera los posts
+                    - getAll() ->  recupera los posts ✅
                     - getById(id) -> recupera por Id
                     - getByCategory(cat) -> recupera por categoría
                     - getAllCategories() -> recupera todas las categorías
@@ -35,16 +35,16 @@
 
 PASOS:
 
-- Instalar Bootstrap y modificar archivos angular.json
-- Crear en Shell
-    - Componentes
-    - Interfaces
-    - Servicios
-- Implementar las rutas
-- Vigilar el config
-- Definir la interfaz
-- Crear los arrays del Servicio (DB)
-- Definir el servicio
+- Instalar Bootstrap y modificar archivos angular.json ✅
+- Crear en Shell ✅
+    - Componentes ✅
+    - Interface ✅
+    - Servicios ✅
+- Implementar las rutas ✅
+- Vigilar el config ✅
+- Definir la interfaz ✅
+- Crear los arrays del Servicio (DB) ✅
+- Definir el servicio 🪚
 - Crear HTML/TS app principal
 - Crear HTML/TS header
 - Crear HTML/TS home (sin Selector ni Buscador)
