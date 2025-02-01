@@ -50,10 +50,12 @@ PASOS:
 - Crear HTML/TS home (sin Selector ni Buscador)✅
 - Crear HTML/TS postView
 - Crear HTML/TS postCard ✅
-- Crear Selector en Home
-- Crear Buscador en Home
+- Crear Selector en Hom ✅
+- Crear Buscador en Home ✅
 - Crear HTML/TS New ... Form
 - Crear validadores del Form
+- Mejorar los estilos en general
+- Hacer que los 2 filtros funcionen a la vez
 
                    
         

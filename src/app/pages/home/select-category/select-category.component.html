@@ -1,1 +1,8 @@
-<p>select-category works!</p>
+<p class="mt-3"><strong>Filtrar por categoría:</strong></p>
+
+<select (change)="getCategory($event)" class="form-select my-3">
+    <option value="">Selecciona una categoría</option>
+    @for(category of categoryList; track category){
+    <option [value]="category">{{category}}</option>
+    }
+</select>
