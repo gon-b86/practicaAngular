@@ -1,1 +1,25 @@
-<p>header works!</p>
+<nav class="p-1 navbar navbar-expand-lg border-3 border-bottom border-black bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" [routerLink]="['/home']">
+        <figure>
+          <img class="logo" src="https://revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic-1030x584.png" alt="">
+        </figure>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['/home']">Home</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['/postnew']">Nuevo Post</a>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav>

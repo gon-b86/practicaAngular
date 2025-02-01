@@ -1,0 +1,25 @@
+.navbar-brand {
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+
+  .container-fluid {
+    div ul li a{
+        color: white
+      }
+    button {
+      background-color: white;
+      color: white;
+    }
+  }
+  
+  
+  
+  
