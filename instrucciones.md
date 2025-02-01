@@ -48,14 +48,20 @@ PASOS:
 - Crear HTML/TS app principal ✅
 - Crear HTML/TS header ✅
 - Crear HTML/TS home (sin Selector ni Buscador)✅
-- Crear HTML/TS postView
+- Crear HTML/TS postView ✅
 - Crear HTML/TS postCard ✅
 - Crear Selector en Hom ✅
 - Crear Buscador en Home ✅
 - Crear HTML/TS New ... Form
 - Crear validadores del Form
+
+FINETUNNING:
+
 - Mejorar los estilos en general
+- Mejorar formato fecha
+- Implementar fantasías como los mensajes de alerta chulos
 - Hacer que los 2 filtros funcionen a la vez
+- Ordenar los posts de la home (por orden alfabetico de titulo, o por post o por lo que sea)
 
                    
         

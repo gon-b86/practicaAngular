@@ -1,1 +1,18 @@
-<p>post-view works!</p>
+<section class="container my-3">
+    <div class="card p-3 shadow-sm2">
+      <div class="row">
+        <figure >
+            <img [src]="post.image" [alt]="post.title">
+          </figure>
+        <h3 class="pb-3">{{post.title}}</h3>
+        <p><strong>Autor:</strong> {{post.author}}</p>
+        <p><strong>Categoría:</strong> {{post.category}}</p>
+        <p ><strong>Descripción:</strong> {{post.text}}</p>
+        <p class="pb-2"><strong>Fecha:</strong> {{post.date}}</p>
+        <button class="btn btn-danger" [routerLink]="['/home']">Volver al blog</button>
+    
+  
+      </div>
+    </div>
+  
+  </section>

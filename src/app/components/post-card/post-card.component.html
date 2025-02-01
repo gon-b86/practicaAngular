@@ -4,12 +4,8 @@
             <img [src]="miPost.image" [alt]="miPost.title">
           </figure>
         <h3 class="pb-3">{{miPost.title}}</h3>
-        <p>
-            <strong>Autor:</strong> {{miPost.author}}
-          </p>
-        <p class="pb-2">
-          <strong>Categoría:</strong> {{miPost.category}}
-        </p>
+        <p><strong>Autor:</strong> {{miPost.author}}</p>
+        <p class="pb-2"><strong>Categoría:</strong> {{miPost.category}}</p>
         <button class="btn btn-sm btn-danger" [routerLink]="['/post', miPost.id]">Ver detalle</button>
       </div>
     
