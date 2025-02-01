@@ -2,10 +2,12 @@ import { Component, inject } from '@angular/core';
 import { IPost } from '../../interface/ipost.interface';
 import { PostsService } from '../../services/posts.service';
 import { PostCardComponent } from "../../components/post-card/post-card.component";
+import { PostSearchComponent } from "./post-search/post-search.component";
+import { SelectCategoryComponent } from "./select-category/select-category.component";
 
 @Component({
   selector: 'app-home',
-  imports: [PostCardComponent],
+  imports: [PostCardComponent, PostSearchComponent, SelectCategoryComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -21,7 +23,7 @@ export class HomeComponent {
     this.arrPosts = this.postsServices.getByTitle(event);
   }
 
-  searchByCategory(event: string) {
+  selectByCategory(event: string) {
     this.arrPosts = this.postsServices.getByCategory(event);
   }
 }

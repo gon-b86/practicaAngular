@@ -47,9 +47,9 @@ PASOS:
 - Definir el servicio ✅
 - Crear HTML/TS app principal ✅
 - Crear HTML/TS header ✅
-- Crear HTML/TS home (sin Selector ni Buscador)
+- Crear HTML/TS home (sin Selector ni Buscador)✅
 - Crear HTML/TS postView
-- Crear HTML/TS postCard
+- Crear HTML/TS postCard ✅
 - Crear Selector en Home
 - Crear Buscador en Home
 - Crear HTML/TS New ... Form

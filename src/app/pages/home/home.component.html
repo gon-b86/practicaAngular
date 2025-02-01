@@ -1,12 +1,15 @@
 <section class="container my-3">
     <h1>Entradas del Blog</h1>
     <hr>
+
     <div>
-      
+      <app-post-search (busquedaEmitida)="searchByTitle($event)"></app-post-search>
     </div>
+    
     <div>
-      
+      <app-select-category></app-select-category>
     </div>
+
     <div class="row g-3">
       @for( post of arrPosts; track post.id ){
       <article class="col-12 col-md-6 col-xl-4">
@@ -16,4 +19,5 @@
       <h3>No hay posts</h3>
       }
     </div>
+    
   </section>
