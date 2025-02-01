@@ -57,11 +57,11 @@ PASOS:
 
 FINETUNNING:
 
-- Mejorar los estilos en general
+- Implementar fantasías como los mensajes de alerta chulos cuando se ponga un id en la url dinámica que no existe (en ese alert)
 - Mejorar formato fecha
-- Implementar fantasías como los mensajes de alerta chulos
 - Hacer que los 2 filtros funcionen a la vez
-- Ordenar los posts de la home (por orden alfabetico de titulo, o por post o por lo que sea)
+- Poder borrar un post
+
 
                    
         
