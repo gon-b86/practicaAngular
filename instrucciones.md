@@ -46,7 +46,7 @@ PASOS:
 - Crear los arrays del Servicio (DB) ✅
 - Definir el servicio ✅
 - Crear HTML/TS app principal ✅
-- Crear HTML/TS header
+- Crear HTML/TS header ✅
 - Crear HTML/TS home (sin Selector ni Buscador)
 - Crear HTML/TS postView
 - Crear HTML/TS postCard

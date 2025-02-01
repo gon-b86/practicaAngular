@@ -42,7 +42,7 @@ export const POSTS: IPost[] = [
         title: 'Top Music Festivals Around the World',
         text: 'A look at the best music festivals around the world, from Coachella to Glastonbury.',
         author: 'Sarah Davis',
-        image: 'https://madriddiferente.com/wp-content/uploads/2024/02/Festival-Rio-Babel-770x466.jpg',
+        image: 'https://offloadmedia.feverup.com/barcelonasecreta.com/wp-content/uploads/2018/04/09111446/unite-with-tomorrowland-spain-1024x597.jpg',
         date: new Date('2023-05-01'),
         category: 'Festivales'
     },
@@ -69,7 +69,7 @@ export const POSTS: IPost[] = [
         title: 'Exploring Tokyo',
         text: 'Discover the vibrant city of Tokyo, from its bustling streets to its serene temples.',
         author: 'James Anderson',
-        image: 'https://elhype.com/wp-content/uploads/2020/01/tokyo-lifestyle-arquitectura-elhype-c-690x450.jpg',
+        image: 'https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_6000,h_3375,c_limit/tokyoGettyImages-1031467664.jpeg',
         date: new Date('2023-08-01'),
         category: 'Ciudad'
     },
