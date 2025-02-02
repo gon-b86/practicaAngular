@@ -1,1 +1,61 @@
-<p>post-new works!</p>
+<section class="container my-3">
+
+    <h2>Nuevo Post en el Blog</h2>
+    <hr>
+
+    <div class="card p-3 shadow-sm2" >
+
+    <form [formGroup]="formModel" (ngSubmit)="onSubmit()">
+
+    <div>
+      <label class="form-label" for="title"><strong>Título:</strong> </label>
+      <input class="form-control" type="text" id="title" formControlName="title" placeholder="introduce el título del post">
+      @if(checkErrorField('title', 'required')){
+      <p class="error">El campo es obligatorio</p>
+      }
+    </div>
+  
+    <div>
+        <label class="form-labe mt-3" for="text"><strong>Descripción:</strong> </label>
+        <input class="form-control" type="text" id="text" formControlName="text" placeholder="introduce la descripción del post">
+        @if(checkErrorField('text', 'required')){
+        <p class="error">El campo es obligatorio</p>
+        }
+      </div>
+    
+    <div>
+        <label class="form-label mt-3" for="author"><strong>Autor:</strong> </label>
+        <input class="form-control" type="text" id="author" formControlName="author" placeholder="introduce quién eres">
+        @if(checkErrorField('author', 'required')){
+        <p class="error">El campo es obligatorio</p>
+        }
+    </div>
+
+    <div>
+        <label class="form-label mt-3" for="image"><strong>Imagen:</strong> </label>
+        <input class="form-control" type="text" id="image" formControlName="image" placeholder="introduce una imagen en formato URL">
+        @if(checkErrorField('image', 'required')){
+        <p class="error">El campo es obligatorio</p>
+        }
+    </div>
+
+    <div>
+        <label class="form-label mt-3" for="category"><strong>Categoría:</strong> </label>
+        <input class="form-control" type="text" id="category" formControlName="category" placeholder="introduce el título del post">
+        @if(checkErrorField('category', 'required')){
+        <p class="error">El campo es obligatorio</p>
+        }
+      </div>
+    
+    <div>
+      <input type="submit" value="Enviar" class="btn btn-danger mt-4">
+    </div>
+  
+  
+  </form>
+
+</div>
+  
+</section>
+
+  
