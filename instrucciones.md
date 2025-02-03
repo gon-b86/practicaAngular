@@ -58,22 +58,16 @@ PASOS:
 
 FINETUNNING:
 
-FORM:
-
-- Que al añadir un post se cree un id, que sea numerativo tras el anterior que exista. ✅
-    - QUe al añadir un post, no de error cuando click en ver el post, ya que no detecta el id de la parte dinámica de la URL
-- Que al añadir un post se añada la categoria en el desplegable
-
-
-
 OTROS:
 
-- Implementar fantasías como los mensajes de alerta chulos:
-    - cuando se ponga un id en la url dinámica que no existe (en ese alert).
-    - cuando se haga submit en un post que se ha enviado satisfactoriamente
-    *** Mirar de la practica de "rutasHijasGuards" ***
-- Ordenar los posts que se muestran, de más cercano a más nuevo en el tiempo
 - Hacer que los 2 filtros funcionen a la vez
+
+- Ordenar los posts que se muestran, de más cercano a más nuevo en el tiempo
+
+- Que al añadir un post en la parte de categorías no se pueda escribir, que sea un desplegable
+
+- QUe al añadir un post, no de error cuando clicko en ver el post, ya que no detecta el id de la parte dinámica de la URL
+
 
 
 

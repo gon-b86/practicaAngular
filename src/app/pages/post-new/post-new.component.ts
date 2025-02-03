@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { PostsService } from '../../services/posts.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-post-new',
@@ -29,6 +30,7 @@ export class PostNewComponent implements OnInit {
       image: ['', [Validators.required]],
       date: [currentday],
       category: ['', [Validators.required, Validators.minLength(3)]]
+      
     });
   }
 
@@ -53,7 +55,16 @@ export class PostNewComponent implements OnInit {
       this.generateNewId(); // Generar un nuevo ID para el próximo post
       this.formModel.reset();
       this.formModel.get('id')?.setValue(this.newPostId); // Asignar el nuevo ID al formulario
-      alert("Post añadido satisfactoriamente");
+
+      Swal.fire({
+        icon: "success",
+        title: "Post añadido satisfactoriamente",
+        showConfirmButton: false,
+        timer: 1500
+      });
+
+
+     
       console.log(this.postsService.getAll());
     }
   }
