@@ -52,15 +52,29 @@ PASOS:
 - Crear HTML/TS postCard ✅
 - Crear Selector en Hom ✅
 - Crear Buscador en Home ✅
-- Crear HTML/TS New ... Form
-- Crear validadores del Form
+- Crear HTML/TS New ... Form ✅
+- Crear validadores del Form ✅
+
 
 FINETUNNING:
 
-- Implementar fantasías como los mensajes de alerta chulos cuando se ponga un id en la url dinámica que no existe (en ese alert)
-- Mejorar formato fecha
+FORM:
+
+- Que al añadir un post se cree un id, que sea numerativo tras el anterior que exista. ✅
+    - QUe al añadir un post, no de error cuando click en ver el post, ya que no detecta el id de la parte dinámica de la URL
+- Que al añadir un post se añada la categoria en el desplegable
+
+
+
+OTROS:
+
+- Implementar fantasías como los mensajes de alerta chulos:
+    - cuando se ponga un id en la url dinámica que no existe (en ese alert).
+    - cuando se haga submit en un post que se ha enviado satisfactoriamente
+    *** Mirar de la practica de "rutasHijasGuards" ***
+- Ordenar los posts que se muestran, de más cercano a más nuevo en el tiempo
 - Hacer que los 2 filtros funcionen a la vez
-- Poder borrar un post
+
 
 
                    

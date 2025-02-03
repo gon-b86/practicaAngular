@@ -4,6 +4,6 @@ export interface IPost {
     text: string;
     author: string;
     image: string;
-    date: Date;
+    date: string;
     category: string
 }

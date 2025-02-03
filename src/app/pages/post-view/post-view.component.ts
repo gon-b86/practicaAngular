@@ -15,14 +15,5 @@ export class PostViewComponent {
   router = inject(Router);
   post!: IPost;
 
-  ngOnInit() {
-    let id: number = Number(this.idPost);
-    let response = this.postsService.getById(id);
-    if (response) {
-      this.post = response;
-    } else {
-      alert('Id de post no existe')
-      this.router.navigate(['/home']);
-  }
-}
+  
 }
