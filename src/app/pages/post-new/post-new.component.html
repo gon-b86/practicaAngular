@@ -33,7 +33,7 @@
 
     <div>
         <label class="form-label mt-3" for="image"><strong>Imagen:</strong> </label>
-        <input class="form-control" type="text" id="image" formControlName="image" placeholder="introduce una imagen en formato URL">
+        <input class="form-control" type="text" id="image" formControlName="image" placeholder="introduce una imagen en formato URL que empiece por 'http'">
         @if(checkErrorField('image', 'required')){
         <p class="error">El campo es obligatorio</p>
         }

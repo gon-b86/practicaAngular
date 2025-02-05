@@ -14,6 +14,7 @@ import { SelectCategoryComponent } from "./select-category/select-category.compo
 export class HomeComponent {
   arrPosts: IPost[] = [];
   postsServices = inject(PostsService);
+  
 
   ngOnInit() {
     this.arrPosts = this.postsServices.getAll();
@@ -26,4 +27,11 @@ export class HomeComponent {
   selectByCategory(event: string) {
     this.arrPosts = this.postsServices.getByCategory(event);
   }
+
+  combinedFilter(title: string, category: string) {
+
+  this.arrPosts = this.postsServices.getAll().filter(post => 
+    post.title.includes(title) && post.category === category
+  );
+}
 }

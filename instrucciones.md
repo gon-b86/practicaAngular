@@ -22,20 +22,21 @@
                 - Categoría: string (Playa, Montaña, Ciudad, Rural, Festivales)
                
 3 - Servicio - postsService
-                - Array 1 [] -> entrada de posts ✅
-                - Array 2 [] -> detalle de categorías (como el de jobs de usuarios) ✅
+                - Array 1 [] -> entrada de posts
+                - Array 2 [] -> detalle de categorías (como el de jobs de usuarios)
                 - Métodos:
-                    - getAll() ->  recupera los posts ✅
-                    - getById(id) -> recupera por Id ✅
-                    - getByCategory(cat) -> recupera por categoría✅
-                    - getAllCategories() -> recupera todas las categorías✅
-                    - insert(Post) -> agrega posts desde el formulario ✅
+                    - getAll() ->  recupera los posts
+                    - getById(id) -> recupera por Id
+                    - getByCategory(cat) -> recupera por categoría
+                    - getAllCategories() -> recupera todas las categorías
+                    - insert(Post) -> agrega posts desde el formulario
 
 
 
 PASOS:
 
 - Instalar Bootstrap y modificar archivos angular.json ✅
+- Instalar sweet alert ✅
 - Crear en Shell ✅
     - Componentes ✅
     - Interface ✅
@@ -58,15 +59,11 @@ PASOS:
 
 FINETUNNING:
 
-OTROS:
+- Hacer que los 2 filtros funcionen a la vez ❌
 
-- Hacer que los 2 filtros funcionen a la vez
+- Que al añadir un post en la parte de categorías no se pueda escribir, que sea un desplegable ❌
 
-- Ordenar los posts que se muestran, de más cercano a más nuevo en el tiempo
-
-- Que al añadir un post en la parte de categorías no se pueda escribir, que sea un desplegable
-
-- QUe al añadir un post, no de error cuando clicko en ver el post, ya que no detecta el id de la parte dinámica de la URL
+- Que al añadir un post, no detecta el id de la parte dinámica de la URL ❌
 
 
 

@@ -27,10 +27,9 @@ export class PostNewComponent implements OnInit {
       title: ['', [Validators.required]],
       text: ['', [Validators.required]],
       author: ['', [Validators.required]],
-      image: ['', [Validators.required]],
+      image: ['', [Validators.required, Validators.pattern(/^http/)]], // Validador para que empiece por "http"
       date: [currentday],
       category: ['', [Validators.required, Validators.minLength(3)]]
-      
     });
   }
 
